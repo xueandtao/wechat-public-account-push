@@ -8,33 +8,28 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
-wx152c1962cd480f2b
+  APP_ID: '',wx152c1962cd480f2b
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
-a64c180f0219a7e2cfb6a4c813b0b4cf
+  APP_SECRET: '',a64c180f0219a7e2cfb6a4c813b0b4cf
   PROVINCE: '陕西',
   CITY: '咸阳',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝贝',雪宝
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: '',ovRfn6EiuaDQ44bktHVLBUuRVCVk
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '',06—08
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '12-27',06-08
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2002', date: '06-08',
+          type: '*生日',06-08 name: '宝贝',雪宝 year: '2002',2002 date: '06-08',0608
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '宝贝', year: '2002', date: '06-08',
-        },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '05-20',
         },
@@ -44,7 +39,6 @@ a64c180f0219a7e2cfb6a4c813b0b4cf
         // 在一起的日子
         { keyword: 'love_day', date: '2020-05-20' },
         // 结婚纪念日
-        { keyword: 'love_day', date: '2030-09-09' },
       ],
     },
   ],
