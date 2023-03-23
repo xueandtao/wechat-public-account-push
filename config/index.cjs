@@ -9,12 +9,12 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
-
+wx152c1962cd480f2b
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
-
-  PROVINCE: '广东',
-  CITY: '惠州',
+a64c180f0219a7e2cfb6a4c813b0b4cf
+  PROVINCE: '陕西',
+  CITY: '咸阳',
 
   USERS: [
     {
@@ -29,22 +29,22 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '宝贝', year: '2002', date: '06-08',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '宝贝', year: '2002', date: '06-08',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2020', date: '05-20',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2020-05-20' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2030-09-09' },
       ],
     },
   ],
